@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -28,6 +28,7 @@ jobs:
 
     - name: Installing my packages
       run: npm ci
+
     - name: Build my App  
       run: npm run build
       env:

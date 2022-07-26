@@ -7,7 +7,7 @@ const Header = () => {
     <header className="flex items-center justify-between text-white px-6 py-4 h-10  max-w-5xl mx-auto mt-10 bg-transparent">
       <span></span>
       <button
-        className="px-6 py-2 bg-lime-400 text-white rounded-md font-semibold uppercase"
+        className="px-6 py-2 bg-lime-500 text-white rounded-md font-semibold uppercase"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         {theme === "light" ? "Dark" : "Light"}

@@ -116,11 +116,11 @@ export default function Home() {
                   <div className="flex items-center space-x-4">
 
                     <div className="">
-                    <p className="text-sm">
+                      <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const
                         tech
                         <span className="font-bold text-pink-300">Web</span> =
-                        ["HTML5", "CSS3", "PHP", "Reactjs", "Nextjs", "Nodejs"];{" "}
+                        ["Nodejs", "Reactjs", "Nextjs", "Graphql", "Django", "PHP"];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const

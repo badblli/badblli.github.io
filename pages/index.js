@@ -15,15 +15,13 @@ const TypingAnimation = React.memo(
         loop={5}
         wrapper="p"
         steps={[
-          "Junior Developer",
+          "Jr. React Developer",
           2000,
-          "JS Enthusiast",
+          "Studying MIS at Anadolu University",
+          2000,
+          "NextJS Enthusiast",
           2000,
           "Githubber",
-          2000,
-          "Graphic Designer",
-          2000,
-          "Flutter Enthusiast",
           2000,
         ]}
       />
@@ -77,18 +75,18 @@ export default function Home() {
                 <GithubIcon className={"w-8 h-8 fill-current"} />
               </motion.a>
 
-              <motion.a
-                href="https://twitter.com/illakikonusuruz"
-                target={"_blank"}
-                rel="noopener noreferrer"
-                className="flex items-center justify-center text-gray-800 transition-colors duration-300 dark:text-gray-100 dark:hover:text-pinkish-200 hover:text-pinkish-200"
-                whileHover={{ scale: 1.1 }}
-              >
-                <TwitterIcon className={"w-8 h-8 fill-current"} />
-              </motion.a>
+//               <motion.a
+//                 href="https://twitter.com/illakikonusuruz"
+//                 target={"_blank"}
+//                 rel="noopener noreferrer"
+//                 className="flex items-center justify-center text-gray-800 transition-colors duration-300 dark:text-gray-100 dark:hover:text-pinkish-200 hover:text-pinkish-200"
+//                 whileHover={{ scale: 1.1 }}
+//               >
+//                 <TwitterIcon className={"w-8 h-8 fill-current"} />
+//               </motion.a>
 
               <motion.a
-                href="https://www.linkedin.com/in/badblli"
+                href="https://www.linkedin.com/in/busenuradibelli/"
                 target={"_blank"}
                 rel="noopener noreferrer"
                 className="flex items-center justify-center text-gray-800 transition-colors duration-300 dark:text-gray-100 dark:hover:text-pinkish-200 hover:text-pinkish-200"
@@ -120,19 +118,19 @@ export default function Home() {
                         <span className="text-pink-300"> {">"} </span> const
                         tech
                         <span className="font-bold text-pink-300">Web</span> =
-                        ["Nodejs", "Reactjs", "Nextjs", "Graphql", "Django", "PHP"];{" "}
+                        ["Reactjs", "Nextjs","Django", "PHP","Nodejs"];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const
                         tech
                         <span className="font-bold text-pink-300">Data</span> =
-                        ["Postgresql", "Mysql", "Mssql"];{" "}
+                        ["GraphQL", "Mysql", "Mssql"];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const
                         tech
                         <span className="font-bold text-pink-300">OOP</span> =
-                        ["Python", "C#", "C"];{" "}
+                        ["Python", "C#"];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const
